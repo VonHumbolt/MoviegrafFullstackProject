@@ -77,7 +77,10 @@ Tailwind Css was used for App UI design.
 
 ## Trailer of the Project
 
+<div align="center">
+    
 https://github.com/user-attachments/assets/f63baad5-6941-41ec-817a-b21aa5cc5158
 
+</div>
 
 
