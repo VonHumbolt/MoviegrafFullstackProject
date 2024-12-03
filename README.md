@@ -74,3 +74,10 @@ Tailwind Css was used for App UI design.
         Frontend: localhost:3000
         MongoDB: localhost:27017
         Mongo-Express: localhost:8091
+
+## Trailer of the Project
+
+https://github.com/user-attachments/assets/f63baad5-6941-41ec-817a-b21aa5cc5158
+
+
+
