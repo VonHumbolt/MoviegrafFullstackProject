@@ -4,11 +4,11 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 function Main() {
-  return (
-    <div className="px-8 md:px-16 mt-8 flex items-center justify-start space-x-2 max-w-7xl mx-auto relative">
+  return ( //flex items-center justify-start space-x-2
+    <div className="px-8 md:px-16 mt-8 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto relative">
       <Image
         src="/home/bg_background.png"
-        className="absolute hidden md:inline object-contain -top-24 right-3"
+        className="absolute hidden md:inline object-contain -top-24 right-3 -z-30"
         width={1000}
         height={1000}
         alt="Background image"
@@ -31,12 +31,12 @@ function Main() {
       </div>
 
       {/* Background Image */}
-      <div className="hidden md:inline z-10">
+      <div className="hidden md:inline z-10 mx-10">
         <Image
           src="/home/bg_home.png"
-          className="object-contain"
+          className="rounded-lg"
           width={1000}
-          height={1000}
+          height={2000}
           alt="Home Image"
         />
       </div>

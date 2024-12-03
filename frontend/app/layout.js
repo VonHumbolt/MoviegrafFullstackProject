@@ -18,7 +18,7 @@ export default function RootLayout({ children, modal }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} bg-primaryDark`}
+        className={`${poppins.className} bg-primaryDark scrollbar scrollbar-thumb-secondaryOrange scrollbar-track-white-200`}
       >
         <Navbar />
         
