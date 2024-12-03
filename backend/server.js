@@ -28,9 +28,3 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
 }).catch((error) => {
     console.log("Database error --> ", error)
 })
-
-// CREATE MODULE
-
-// CREATE ROUTES
-
-// CREATE CONTROLLERS

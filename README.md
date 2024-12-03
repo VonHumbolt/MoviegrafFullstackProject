@@ -29,13 +29,48 @@ To add movies to the watchlist, users need to register on the platform. They can
     <li>Shadcn</li>
     <li>Zustand</li>
     <li>Tailwind Css</li>
+    <li>Parallel and Intercepting Routes</li>
 </ul>
 
 ## Usage Of Technologies
 
 <h4>Backend</h4>
 
+Rest api was created with JavaScript and Express.js. MongoDB was used as Database.
+Database queries and models were created using the Mongoose library.
+For authorization and authentication processes, Json web token was used. 
+Movie images uploaded by users are stored in the local folder using Multer.
+Docker was used for running MongoDB database and Mongo-Express as container.
+
 <h4>Frontend</h4>
 
+Frontend was created with Next.js and JavaScript. Shadcn was used for components such as Button, Dropdown, Toast.
+To manage global state, Zustand preferred. Parallel and intercepting routes were used for accessing watching list page.
+Tailwind Css was used for App UI design.
 
 ## How can I use this project?
+
+1. Clone or Download as zip folder of this repository
+
+        git clone https://github.com/VonHumbolt/MoviegrafFullstackProject.git
+
+2. Open cmd in the project root. And, run docker compose file.
+
+        docker compose up -d
+
+3. Go to backend folder directory, install dependencies and then run the backend server.
+
+        npm install
+        npm run dev
+
+4. Go to frontend folder directory, install dependencies and then run the frontend app.
+
+        npm install
+        npm run dev
+
+5. The running ports of the project:
+
+        Backend: localhost:5000
+        Frontend: localhost:3000
+        MongoDB: localhost:27017
+        Mongo-Express: localhost:8091
